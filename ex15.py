@@ -39,3 +39,5 @@ txt_again = open(file_again)
 # The txt_again contains the file that was "opened" in line 35
 # I give this file a read command by adding a dot (.) and the read command
 print txt_again.read()
+txt.close()
+txt_again.close()
