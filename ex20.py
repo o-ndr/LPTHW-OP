@@ -12,6 +12,7 @@ def print_all(f):
 # will take us back to position zero within the file 	
 def rewind(f):
 	f.seek(0)
+# for the object f, do this method/function seek
 
 # when called, the function takes 2 arguments - 
 # line count and file name (see below, current_line and current_file) 
