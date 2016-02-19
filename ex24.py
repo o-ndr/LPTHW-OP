@@ -18,17 +18,7 @@ print "---------------------------"
 
 five = 10 - 2 + 3 - 6
 print "This should be five: %s" % five
-=======
-\n\t\twhere there is none.
-"""
 
-print "-------------"
-print poem
-print "-------------"
-
-
-five = 10 - 2 + 3 - 6
-print "This should be five: %d" % five
 
 def secret_formula(started):
 	jelly_beans = started * 500
