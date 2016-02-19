@@ -7,7 +7,7 @@
 # 3: This function breaks words (using .split method/function on the values of the arguments. 
 # The argument was 'stuff', in Python I created sentence variable,
 # it's value was then used as argument for the break_words function
-# so the function used its own variable 'words',did the .split,
+# so the function used its own variable 'words' did the .split,
 # and returned the broken words as 'words'
 # When I type 'words' in Python, I get this:
 # >>> words
@@ -60,13 +60,13 @@ def print_first_and_last_sorted(sentence):
 	words = sort_sentence(sentence)
 	print_first_word(words)
 	print_last_word(words)
-# when this function is run with argument setence, the value of 'sentence'
+# when this function is run with argument sentence, the value of 'sentence'
 # is changed by function 'sort_sentence"
 # (sentence gets sorted alphabetically, result is 'words')
 # then 'words' is used as argument with which the 2 functions are run
 # and they return the popped 1st and last items of the words array
-# and they are printed out (coz last line in each of those functions is "print word") 
-	
+# and they are printed out (because last line in each of those functions is "print word") 
+
 	
 	
 	
