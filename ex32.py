@@ -16,15 +16,21 @@ for i in change:
 	print "I got %r" % i
 	
 # We can also build lists, first start with an empty one
-elements = []
-
-# Then use the range function to do 0 to 5 counts
-for i in range(0, 6):
+elements = range(6)
+# See this above: Could you have avoided that for-loop entirely
+# and just assigned range(0,6) directly to elements?
+for i in elements:
 	print "Adding %d to the list." % i
-	# Append is a function that lists understand
-	elements.append(i)
+	#elements.append(i)
+# Append is a function that lists understand
 	
 # Now we can print them out, too
 for i in elements:
 	print "Element was: %d" % i
+	
+# And there's an easier way to do fill in the list in one command
+# elements2 = range(6)
+# for i in elements2:
+#	print "Elements2 item was: %d" % i
+
 
