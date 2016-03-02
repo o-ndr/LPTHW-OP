@@ -1,7 +1,7 @@
 from sys import argv
 
-script, first, second, third = argv
-fourth = raw_input()
+script, first, second, third, fourth = argv
+# fourth = raw_input()
 
 print "The script is called:", script
 print "Your first variable is:", first
